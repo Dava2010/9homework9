@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta Konvertori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Valyuta Konvertori</h1>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Miqdor">
+            
+            <div class="select-group">
+                <select id="fromCurrency"></select>
+                <button class="swap-btn" id="swapBtn">⇄</button>
+                <select id="toCurrency"></select>
+            </div>
+
+            <button id="convertBtn">Konvertatsiya</button>
+            <h2 id="result"></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
